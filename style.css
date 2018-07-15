@@ -6,6 +6,87 @@ body {
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 }
 
+body {
+  padding-top: 80px;
+}
+
 * {
   box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 75vw;
+  }
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0 7px #bbb;
+  padding: 8px;
+  top: 0;
+  background: #fff;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left {
+  float: left;
+}
+
+.navbar-left h5 {
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0;
+  font-size: 15px;
+}
+
+.navbar-left .fas {
+  margin-right: 16px;
+}
+
+.navbar-right {
+  float: right;
+}
+
+.logo {
+  margin: 0 auto;
+  text-transform: capitalize;
+  vertical-align: middle;
+}
+
+.navbar-btn {
+  text-transform: uppercase;
+  padding: 8px 12px 6px;
+  color: #fff;
+  font-weight: bold;
+  background: #326891;
+  border-radius: 3px;
+  font-size: 12px;
+  border: 0.5px solid #888;
 }
