@@ -114,7 +114,7 @@ main h1 {
 }
 
 .intro {
-  color: #222;
+  color: #333;
 }
 
 .intro img {
@@ -126,5 +126,41 @@ main h1 {
 }
 
 .intro .lighter {
-  color: #555;
+  color: #777;
+}
+
+main .article-info {
+  margin-bottom: 24px;
+}
+
+main .article-info span {
+  color: #333;
+  display: inline-block;
+  margin: 12px 0;
+}
+
+main .article-links {
+  float: right;
+  margin-top: 3px;
+}
+
+main .article-links .fab,
+main .article-links .fas {
+  width: 32px;
+  height: 32px;
+  margin: 0 6px;
+  line-height: 32px;
+  text-align: center;
+  background: #ddd;
+  border-radius: 50%;
+}
+
+main p {
+  font-size: 19px;
+  line-height: 24px;
+  color: #222;
+}
+
+main h2 {
+  color: #222;
 }
