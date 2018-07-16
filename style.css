@@ -377,3 +377,28 @@ main h2 {
 .trending-article a:hover {
   color: #555;
 }
+
+/* Footer */
+.footer {
+  border-top: 3px double #999;
+}
+
+.footer .row {
+  display: flex;
+}
+
+.footer-link-group {
+  flex: 1;
+}
+
+.footer-link-group h4 {
+  text-transform: uppercase;
+  margin: 0 0 12px;
+}
+
+.footer-link-group a {
+  display: block;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 10px;
+}
