@@ -3,6 +3,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  color: #222;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 }
 
@@ -12,6 +13,10 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+.clearfix {
+  clear: both;
 }
 
 .container,
@@ -72,7 +77,16 @@ body {
   float: left;
 }
 
-.navbar-left h5 {
+.space-and-cosmos {
+  text-decoration: none;
+  color: #222;
+}
+
+.space-and-cosmos:hover h5 {
+  text-decoration: underline; 
+}
+
+.space-and-cosmos h5 {
   text-transform: uppercase;
   display: inline-block;
   margin: 0;
@@ -105,16 +119,13 @@ body {
 }
 
 /* Main Article Content */
-main {
-  border: 1px solid red;
-}
-
 main h1 {
   font-style: italic;
 }
 
 .intro {
   color: #333;
+  margin-bottom: 32px;
 }
 
 .intro img {
@@ -127,6 +138,15 @@ main h1 {
 
 .intro .lighter {
   color: #777;
+}
+
+main h4 a {
+  text-decoration: none;
+  color: #222;
+}
+
+main h4 a:hover {
+  text-decoration: underline;
 }
 
 main .article-info {
@@ -157,10 +177,66 @@ main .article-links .fas {
 
 main p {
   font-size: 19px;
-  line-height: 24px;
+  line-height: 150%;
   color: #222;
 }
 
+main p a {
+  color: #326891;
+}
+
 main h2 {
-  color: #222;
+  color: #000;
+}
+
+.theory-of-inflation {
+  border: 0.5px solid red;
+}
+
+.theory-of-inflation span {
+  color: #555;
+  line-height: 150%;
+}
+
+.theory-of-inflation hr {
+  border: 0.5px solid #000;
+  width: 80px;
+  float: left;
+  margin: 48px 0 12px;
+}
+
+.theory-of-inflation .row {
+  display: flex;
+}
+
+.theory-of-inflation .row-item {
+  flex: 1;
+  margin: 0 4px;
+}
+
+.theory-of-inflation .row-item img {
+  width: 100%;
+}
+
+.theory-of-inflation .row-item span {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  color: #000;
+}
+
+.theory-of-inflation .row-item p {
+  font-size: 14px;
+  display: inline;
+  line-height: 130%;
+}
+
+.credits {
+  font-size: 15px;
+  color: #555;
+}
+
+.credits span {
+  text-transform: uppercase;
 }
