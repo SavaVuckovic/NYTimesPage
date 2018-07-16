@@ -290,9 +290,9 @@ main h2 {
 }
 
 .more-articles .right-col {
+  border-top: 1px solid #000;
   float: right;
   width: 30%;
-  border: 1px solid blue;
   height: 300px;
 }
 
@@ -317,6 +317,63 @@ main h2 {
   color: #555;
 }
 
-.more-in-space {
+.more-in-space,
+.editors-picks,
+.sign-up {
   border-top: 1px solid #000;
+}
+
+.sign-up .left-col {
+  width: 40%;
+  float: left;
+}
+
+.sign-up .right-col {
+  float: right;
+  width: 55%;
+  border: none;
+  padding-top: 24px;
+}
+
+.sign-up .right-col input[type="email"] {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+}
+
+.sign-up .right-col input::placeholder {
+  font-weight: bold;
+}
+
+.sign-up .right-col button {
+  display: block;
+  width: 100%;
+  color: #326891;
+  border: 1px solid #326891;
+  background: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 12px 0;
+}
+
+.sign-up .right-col span {
+  color: #555;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.trending-article {
+  border-top: 1px solid #999;
+}
+
+.trending-article a {
+  text-decoration: none;
+  color: #222;
+}
+
+.trending-article a:hover {
+  color: #555;
 }
