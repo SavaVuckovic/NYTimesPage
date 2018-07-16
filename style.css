@@ -159,16 +159,19 @@ main .article-info span {
   margin: 12px 0;
 }
 
-main .article-links {
+main .article-info .article-links {
   float: right;
-  margin-top: 3px;
+}
+
+main .article-links {
+  float: left;
 }
 
 main .article-links .fab,
 main .article-links .fas {
   width: 32px;
   height: 32px;
-  margin: 0 6px;
+  margin-right: 12px;
   line-height: 32px;
   text-align: center;
   background: #ddd;
@@ -190,7 +193,7 @@ main h2 {
 }
 
 .theory-of-inflation {
-  border: 0.5px solid red;
+  margin: 12px 0;
 }
 
 .theory-of-inflation span {
@@ -216,6 +219,8 @@ main h2 {
 
 .theory-of-inflation .row-item img {
   width: 100%;
+  height: 130px;
+  margin-top: 8px;
 }
 
 .theory-of-inflation .row-item span {
@@ -239,4 +244,37 @@ main h2 {
 
 .credits span {
   text-transform: uppercase;
+}
+
+.video-wrapper {
+  margin: 12px 0;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 480px;
+  margin-bottom: 8px;
+}
+
+.video-wrapper span {
+  color: #555;
+}
+
+.image-wrapper {
+  margin: 12px 0;
+}
+
+.image-wrapper img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.image-wrapper span {
+  line-height: 150%;
+  color: #555;
+}
+
+.print-info {
+  color: #555;
+  margin-bottom: 24px;
 }
