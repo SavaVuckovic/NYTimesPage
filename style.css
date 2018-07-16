@@ -286,8 +286,7 @@ main h2 {
 
 .more-articles .left-col {
   float: left;
-  width: 67%;
-  border: 1px solid blue;
+  width: 68%;
 }
 
 .more-articles .right-col {
@@ -297,6 +296,27 @@ main h2 {
   height: 300px;
 }
 
+.more-articles .left-col .row {
+  display: flex;
+}
+
+.more-articles .left-col .row-item {
+  flex: 1;
+  margin: 0 12px 12px 0;
+}
+
+.more-articles .left-col .row-item img {
+  width: 100%;
+}
+
+.more-articles .left-col .row-item h4 {
+  margin: 10px 0 6px;
+}
+
+.more-articles .left-col .row-item span {
+  color: #555;
+}
+
 .more-in-space {
-  
+  border-top: 1px solid #000;
 }
