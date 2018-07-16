@@ -278,3 +278,25 @@ main h2 {
   color: #555;
   margin-bottom: 24px;
 }
+
+/* More Articles */
+.more-articles {
+  margin: 48px 0; 
+}
+
+.more-articles .left-col {
+  float: left;
+  width: 67%;
+  border: 1px solid blue;
+}
+
+.more-articles .right-col {
+  float: right;
+  width: 30%;
+  border: 1px solid blue;
+  height: 300px;
+}
+
+.more-in-space {
+  
+}
